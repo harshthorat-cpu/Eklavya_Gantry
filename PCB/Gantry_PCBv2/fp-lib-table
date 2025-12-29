@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Motor Drivers")(type "KiCad")(uri "${KIPRJMOD}/Motor Drivers.pretty")(options "")(descr ""))
+)
