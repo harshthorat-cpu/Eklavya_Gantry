@@ -10079,6 +10079,30 @@
 		(uuid 2925085c-fbc1-4362-940f-37e8944c4385)
 	)
 	(rectangle
+		(start 60.96 18.034)
+		(end 118.11 81.28)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2aebc725-cc78-4f08-9321-c678997037bf)
+	)
+	(rectangle
+		(start 118.11 17.78)
+		(end 173.482 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 338c42b2-2947-4287-a461-25e6f036899e)
+	)
+	(rectangle
 		(start 11.684 188.722)
 		(end 50.292 234.95)
 		(stroke
@@ -10091,6 +10115,18 @@
 		(uuid 3ae1f74a-3feb-4164-8a9f-ddb0713becc7)
 	)
 	(rectangle
+		(start 60.96 81.28)
+		(end 118.11 118.872)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5d24c29e-fd82-445f-bb0e-a92b8ae53719)
+	)
+	(rectangle
 		(start 90.932 190.754)
 		(end 156.21 283.972)
 		(stroke
@@ -10101,6 +10137,18 @@
 			(type none)
 		)
 		(uuid 62f78805-f5f6-454b-b08b-52f5d9abe7bc)
+	)
+	(rectangle
+		(start 11.938 18.034)
+		(end 60.96 118.872)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7935128c-6cf9-40bf-99a0-ae51ef8e4aef)
 	)
 	(rectangle
 		(start 23.622 125.984)
@@ -10290,7 +10338,7 @@
 	)
 	(text "Converts 5V Input \nto 3.3V Output"
 		(exclude_from_sim no)
-		(at 138.938 136.398 0)
+		(at 138.938 135.382 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -10611,7 +10659,7 @@
 		(uuid "20538929-b6a0-42f6-809a-26b9a7dc73fb")
 	)
 	(junction
-		(at 130.302 156.464)
+		(at 132.08 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "210069f9-6ab0-4693-a596-cab454591470")
@@ -10731,7 +10779,7 @@
 		(uuid "6b2da0d6-aafa-4a79-8078-e3990b5a8751")
 	)
 	(junction
-		(at 141.732 142.494)
+		(at 143.51 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d14eb85-7e31-435d-8ef0-5354c6f105ed")
@@ -10747,6 +10795,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "716c40b3-0607-4441-887b-e4e44c6e289f")
+	)
+	(junction
+		(at 124.46 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "750213a1-a189-4627-bf3e-37a985eb2318")
 	)
 	(junction
 		(at 233.172 147.574)
@@ -10839,7 +10893,7 @@
 		(uuid "a2247d1c-a4b1-4f11-ac6c-dadd53b53b71")
 	)
 	(junction
-		(at 116.332 142.494)
+		(at 118.11 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a382a074-509f-491b-9237-ef2551cbcecc")
@@ -10905,7 +10959,7 @@
 		(uuid "b63d130e-9176-441e-9885-b016bc6ae257")
 	)
 	(junction
-		(at 116.332 156.464)
+		(at 118.11 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be3d9fb5-20a4-412b-af94-15c741e49c4d")
@@ -10971,7 +11025,7 @@
 		(uuid "ee78b2b4-36ab-451a-aea7-ea7df6653607")
 	)
 	(junction
-		(at 141.732 156.464)
+		(at 143.51 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f223bc21-0e90-4006-8e01-a150c8c79ce0")
@@ -11264,7 +11318,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.732 150.114) (xy 141.732 156.464)
+			(xy 143.51 149.86) (xy 143.51 156.21)
 		)
 		(stroke
 			(width 0)
@@ -11291,16 +11345,6 @@
 			(type default)
 		)
 		(uuid "0c059428-d680-495a-a4e0-7117ffd5415e")
-	)
-	(polyline
-		(pts
-			(xy 60.8838 119.38) (xy 61.1378 18.034)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c19dae3-2ab0-4a8b-8168-0b64f6aa5aac")
 	)
 	(wire
 		(pts
@@ -11644,7 +11688,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.332 142.494) (xy 122.682 142.494)
+			(xy 118.11 142.24) (xy 124.46 142.24)
 		)
 		(stroke
 			(width 0)
@@ -11694,7 +11738,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.302 156.464) (xy 130.302 152.654)
+			(xy 132.08 156.21) (xy 132.08 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11802,16 +11846,6 @@
 		)
 		(uuid "357d4628-81e5-481b-a2af-dd9694ff0878")
 	)
-	(polyline
-		(pts
-			(xy 118.0592 17.9578) (xy 117.9576 118.9736)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3759b26a-e54c-4e15-b27b-a96fdaa7512e")
-	)
 	(wire
 		(pts
 			(xy 122.3264 43.307) (xy 134.5184 43.307)
@@ -11831,16 +11865,6 @@
 			(type default)
 		)
 		(uuid "39ac7e45-28c1-459a-b493-1fc9686ee602")
-	)
-	(polyline
-		(pts
-			(xy 161.5694 72.39) (xy 118.4656 72.517)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ce56be-365a-45a9-8711-665da24b8afc")
 	)
 	(wire
 		(pts
@@ -12134,7 +12158,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.442 142.494) (xy 116.332 142.494)
+			(xy 109.22 142.24) (xy 118.11 142.24)
 		)
 		(stroke
 			(width 0)
@@ -12224,7 +12248,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.302 157.734) (xy 130.302 156.464)
+			(xy 132.08 157.48) (xy 132.08 156.21)
 		)
 		(stroke
 			(width 0)
@@ -12574,7 +12598,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.442 150.114) (xy 107.442 156.464)
+			(xy 109.22 149.86) (xy 109.22 156.21)
 		)
 		(stroke
 			(width 0)
@@ -12834,7 +12858,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.732 156.464) (xy 146.812 156.464)
+			(xy 143.51 156.21) (xy 148.59 156.21)
 		)
 		(stroke
 			(width 0)
@@ -12931,16 +12955,6 @@
 			(type default)
 		)
 		(uuid "8ca33043-5d9c-4834-b3cb-6aaba15b6be6")
-	)
-	(polyline
-		(pts
-			(xy 117.9576 81.4578) (xy 60.9854 81.407)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc3f215-9c7e-4600-b51f-c8dace708b5f")
 	)
 	(wire
 		(pts
@@ -13354,7 +13368,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.922 142.494) (xy 141.732 142.494)
+			(xy 139.7 142.24) (xy 143.51 142.24)
 		)
 		(stroke
 			(width 0)
@@ -13434,7 +13448,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.332 150.114) (xy 116.332 156.464)
+			(xy 118.11 149.86) (xy 118.11 156.21)
 		)
 		(stroke
 			(width 0)
@@ -13514,7 +13528,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.332 156.464) (xy 130.302 156.464)
+			(xy 118.11 156.21) (xy 132.08 156.21)
 		)
 		(stroke
 			(width 0)
@@ -13534,7 +13548,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.812 150.114) (xy 146.812 156.464)
+			(xy 148.59 149.86) (xy 148.59 156.21)
 		)
 		(stroke
 			(width 0)
@@ -13894,7 +13908,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.442 156.464) (xy 116.332 156.464)
+			(xy 109.22 156.21) (xy 118.11 156.21)
 		)
 		(stroke
 			(width 0)
@@ -13914,7 +13928,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.302 156.464) (xy 141.732 156.464)
+			(xy 132.08 156.21) (xy 143.51 156.21)
 		)
 		(stroke
 			(width 0)
@@ -13941,6 +13955,16 @@
 			(type default)
 		)
 		(uuid "d8071f55-3dbd-4401-a2de-c7568d33cd2b")
+	)
+	(wire
+		(pts
+			(xy 124.46 142.24) (xy 124.46 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8dc4726-24c9-4368-9bce-489c4b4735c9")
 	)
 	(wire
 		(pts
@@ -14104,7 +14128,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.732 142.494) (xy 146.812 142.494)
+			(xy 143.51 142.24) (xy 148.59 142.24)
 		)
 		(stroke
 			(width 0)
@@ -15043,7 +15067,7 @@
 		(uuid "6afffd95-7193-4389-9985-d485a499e327")
 	)
 	(label "3V3"
-		(at 146.812 142.494 0)
+		(at 148.59 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15653,7 +15677,7 @@
 		(uuid "c1c450e8-40b2-4002-824c-b06a4007d41d")
 	)
 	(label "5V_R"
-		(at 107.442 142.494 0)
+		(at 109.22 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20080,7 +20104,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 116.332 146.304 0)
+		(at 118.11 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20088,7 +20112,7 @@
 		(dnp no)
 		(uuid "4308d7f5-7a18-46bf-815a-f76ea4973664")
 		(property "Reference" "C13"
-			(at 117.602 144.78 0)
+			(at 119.38 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20097,7 +20121,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 117.094 148.844 0)
+			(at 118.872 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20106,7 +20130,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 117.2972 150.114 0)
+			(at 119.0752 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20115,7 +20139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20124,7 +20148,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20133,7 +20157,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20142,7 +20166,7 @@
 			)
 		)
 		(property "ARROW_PART_NUMBER" ""
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20151,7 +20175,7 @@
 			)
 		)
 		(property "ARROW_PRICE-STOCK" ""
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20160,7 +20184,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20169,7 +20193,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20178,7 +20202,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20187,7 +20211,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20196,7 +20220,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20205,7 +20229,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20214,7 +20238,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 116.332 146.304 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20823,7 +20847,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.812 146.304 0)
+		(at 148.59 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20831,7 +20855,7 @@
 		(dnp no)
 		(uuid "4b63eabd-f1a7-4bee-941c-482787dce7fa")
 		(property "Reference" "C16"
-			(at 149.733 145.3955 0)
+			(at 151.511 145.1415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20840,7 +20864,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 148.2344 148.844 0)
+			(at 150.0124 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20849,7 +20873,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 147.7772 150.114 0)
+			(at 149.5552 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20858,7 +20882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20867,7 +20891,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20876,7 +20900,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20885,7 +20909,7 @@
 			)
 		)
 		(property "ARROW_PART_NUMBER" ""
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20894,7 +20918,7 @@
 			)
 		)
 		(property "ARROW_PRICE-STOCK" ""
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20903,7 +20927,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20912,7 +20936,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20921,7 +20945,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20930,7 +20954,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20939,7 +20963,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20948,7 +20972,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20957,7 +20981,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 146.812 146.304 0)
+			(at 148.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22476,7 +22500,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.302 157.734 0)
+		(at 132.08 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22484,7 +22508,7 @@
 		(dnp no)
 		(uuid "6364aad9-5abe-4d98-8392-99dd94e293c4")
 		(property "Reference" "#PWR0107"
-			(at 130.302 164.084 0)
+			(at 132.08 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22493,7 +22517,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.5278 160.5788 0)
+			(at 135.3058 160.3248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22501,7 +22525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.302 157.734 0)
+			(at 132.08 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22510,7 +22534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.302 157.734 0)
+			(at 132.08 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22519,7 +22543,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.302 157.734 0)
+			(at 132.08 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24320,7 +24344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x15.4mm_P1.27mm"
 			(at 324.612 56.134 0)
 			(effects
 				(font
@@ -24575,7 +24599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Littelfuse-LVR100"
 			(at 233.172 23.114 0)
 			(effects
 				(font
@@ -24712,7 +24736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x15.4mm_P1.27mm"
 			(at 376.682 56.134 0)
 			(effects
 				(font
@@ -30068,7 +30092,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 141.732 146.304 0)
+		(at 143.51 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30076,7 +30100,7 @@
 		(dnp no)
 		(uuid "c4660cfb-59eb-4d09-aec9-cfeda23d1298")
 		(property "Reference" "C15"
-			(at 137.16 149.098 0)
+			(at 138.938 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30085,7 +30109,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 136.652 151.384 0)
+			(at 138.43 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30094,7 +30118,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 142.6972 150.114 0)
+			(at 144.4752 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30103,7 +30127,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30112,7 +30136,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30121,7 +30145,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30130,7 +30154,7 @@
 			)
 		)
 		(property "ARROW_PART_NUMBER" ""
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30139,7 +30163,7 @@
 			)
 		)
 		(property "ARROW_PRICE-STOCK" ""
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30148,7 +30172,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30157,7 +30181,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30166,7 +30190,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30175,7 +30199,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30184,7 +30208,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30193,7 +30217,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30202,7 +30226,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 141.732 146.304 0)
+			(at 143.51 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31392,7 +31416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
 			(at 74.422 259.334 0)
 			(effects
 				(font
@@ -33594,7 +33618,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.442 146.304 0)
+		(at 109.22 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33602,7 +33626,7 @@
 		(dnp no)
 		(uuid "ea12c952-7787-4199-bace-15cd37b9241e")
 		(property "Reference" "C9"
-			(at 110.363 145.3955 0)
+			(at 112.141 145.1415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33611,7 +33635,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 108.8644 148.844 0)
+			(at 110.6424 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33620,7 +33644,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 108.4072 150.114 0)
+			(at 110.1852 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33629,7 +33653,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33638,7 +33662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33647,7 +33671,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33656,7 +33680,7 @@
 			)
 		)
 		(property "ARROW_PART_NUMBER" ""
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33665,7 +33689,7 @@
 			)
 		)
 		(property "ARROW_PRICE-STOCK" ""
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33674,7 +33698,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33683,7 +33707,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33692,7 +33716,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33701,7 +33725,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33710,7 +33734,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33719,7 +33743,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33728,7 +33752,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 107.442 146.304 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33826,7 +33850,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:TLV75733PDBV")
-		(at 130.302 145.034 0)
+		(at 132.08 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33835,7 +33859,7 @@
 		(fields_autoplaced yes)
 		(uuid "ececf1ad-17ac-4a6b-b7b0-7dc241fcd412")
 		(property "Reference" "U4"
-			(at 130.302 136.144 0)
+			(at 132.08 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33843,7 +33867,7 @@
 			)
 		)
 		(property "Value" "TLV75733PDBV"
-			(at 130.302 138.684 0)
+			(at 132.08 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33851,7 +33875,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 130.302 136.779 0)
+			(at 132.08 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33861,7 +33885,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
-			(at 130.302 143.764 0)
+			(at 132.08 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33870,7 +33894,7 @@
 			)
 		)
 		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-			(at 130.302 145.034 0)
+			(at 132.08 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
