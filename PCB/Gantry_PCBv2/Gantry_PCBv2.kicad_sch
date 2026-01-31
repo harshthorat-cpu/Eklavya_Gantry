@@ -20424,7 +20424,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0f63bc9f-3860-4d40-ac6a-35f252d8696f")
 		(property "Reference" "R16"
 			(at 107.95 236.22 90)
@@ -20462,6 +20462,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 114.3 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "Yes"
+			(at 114.3 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22822,7 +22831,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "348ef584-6a99-4431-9ea7-6dae948385e0")
 		(property "Reference" "R18"
 			(at 109.22 207.01 90)
@@ -22860,6 +22869,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 115.57 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "Yes"
+			(at 115.57 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26197,7 +26215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
 			(at 359.41 256.54 0)
 			(effects
 				(font
@@ -26312,7 +26330,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "602c05e5-72a6-4231-b933-8a96e75ae2ee")
 		(property "Reference" "R17"
 			(at 107.95 264.16 90)
@@ -26350,6 +26368,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 114.3 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "Yes"
+			(at 114.3 264.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29534,7 +29561,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
 			(at 369.57 256.54 0)
 			(effects
 				(font
@@ -30124,7 +30151,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
 			(at 351.79 256.54 0)
 			(effects
 				(font
