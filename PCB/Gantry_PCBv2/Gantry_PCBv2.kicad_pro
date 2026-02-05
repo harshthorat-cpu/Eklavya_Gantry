@@ -247,6 +247,22 @@
   "erc": {
     "erc_exclusions": [
       [
+        "label_dangling|254000|711200|ffefaa36-fe9f-4400-8c87-b12503dd0147|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55||",
+        ""
+      ],
+      [
+        "label_dangling|254000|736600|1276e3ae-dcb5-460d-9ec9-127afe6d6d5a|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55||",
+        ""
+      ],
+      [
+        "label_dangling|254000|762000|2af23601-f8b0-433f-b2a3-88a4fb2c984a|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55||",
+        ""
+      ],
+      [
+        "label_dangling|254000|787400|eca344b1-80c7-4d4b-a7a5-63218ee4d1ab|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55||",
+        ""
+      ],
+      [
         "label_dangling|4127500|2387600|c135edad-c0e3-4444-93e9-cc67dd1106ea|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55||",
         ""
       ],
@@ -818,6 +834,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "GANTRY PCB",
     "plot_directory": "./",
     "space_save_all_events": true,
